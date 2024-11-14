@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http:
+        xmlns:xsi="http:
+        xsi:schemaLocation="http:
+        http:
+
+    <include file="classpath:db/changelog/sql/changelog-project.xml" />
+</databaseChangeLog>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http:
+        xmlns:xsi="http:
+        xsi:schemaLocation="http:
+        http:
+        logicalFilePath="changelog-project">
+
+    <!-- Таблицы -->
+    <changeSet id="1-company-table" author="Kirill Burdin">
+        <sqlFile path="tables/company.sql" encoding="utf8" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2-user-table" author="Kirill Burdin">
+        <sqlFile path="tables/users.sql" encoding="utf8" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="3-course-table" author="Kirill Burdin">
+        <sqlFile path="tables/course.sql" encoding="utf8" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="5-review-table" author="Kirill Burdin">
+        <sqlFile path="tables/review.sql" encoding="utf8" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="6-cart-table" author="Kirill Burdin">
+        <sqlFile path="tables/cart.sql" encoding="utf8" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="7-cart_item-table" author="Kirill Burdin">
+        <sqlFile path="tables/cart_item.sql" encoding="utf8" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <!-- Индексы -->
+
+    <changeSet id="1-user-indexes" author="Kirill Burdin">
+        <sqlFile path="indexes/user_indexes.sql" encoding="utf8" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="2-company-indexes" author="Kirill Burdin">
+        <sqlFile path="indexes/company_indexes.sql" encoding="utf8" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="3-course-indexes" author="Kirill Burdin">
+        <sqlFile path="indexes/course_indexes.sql" encoding="utf8" relativeToChangelogFile="true"/>
+    </changeSet>
+
+
+
+    <changeSet id="5-review-indexes" author="Kirill Burdin">
+        <sqlFile path="indexes/review_indexes.sql" encoding="utf8" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="6-cart-indexes" author="Kirill Burdin">
+        <sqlFile path="indexes/cart_indexes.sql" encoding="utf8" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="7-cart_item-indexes" author="Kirill Burdin">
+        <sqlFile path="indexes/cart_item_indexes.sql" encoding="utf8" relativeToChangelogFile="true"/>
+    </changeSet>
+
+
+
+</databaseChangeLog>
